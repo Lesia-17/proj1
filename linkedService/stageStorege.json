@@ -1,0 +1,12 @@
+{
+	"name": "stageStorege",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=gen2lake2;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDhGREJGNENDLTkzNzctNEIzMS04RUNBLUYxRjIwMzYzOThDMF9jZWM2YjdmZi0zMzYyLTQ0N2MtYWI2NS0wZjVmNGVmODU3ZDciDQp9"
+		}
+	}
+}
